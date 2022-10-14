@@ -4,7 +4,7 @@ This is a repository for a semantic segmentation inference API using the OpenVIN
 
 Models in Intermediate Representation(IR) format, converted via the [Intel&reg; OpenVINO&trade; toolkit v2021.1](https://docs.openvinotoolkit.org/latest/index.html), can be deployed in this API. Currently, OpenVINO supports conversion for DL-based models trained via several Machine Learning frameworks including Caffe, Tensorflow etc. Please refer to [the OpenVINO documentation](https://docs.openvinotoolkit.org/2021.1/openvino_docs_MO_DG_prepare_model_convert_model_Converting_Model.html) for further details on converting your Model.
 
-**Note: To be able to use the sample inference model provided with this repository make sure to use** `git clone` **and avoid downloading the repository as ZIP because it will not download the acutual model stored on** `git lfs` **but just the pointer instead**
+**Note: To be able to use the sample inference model provided with this repository make sure to have **`git lfs`** installed and initialized then use** `git clone` **and avoid downloading the repository as ZIP because it will not download the acutual model stored on** `git lfs` **but just the pointer instead**
 
 
 ![overview](./docs/overview.gif)
